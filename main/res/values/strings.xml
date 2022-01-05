@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name"> Bluetooth Vehicle Controller </string>
+    <string name="getPairedDevicesButtonText"> Get Paired Devices </string>
+    <string name="scanButtonText"> Scan For Devices </string>startButton
+    <string name="searchButtonText"> Search for object </string>
+    <string name="remoteControlButtonText"> Request Remote Control </string>
+    <string name="A1ButtonText"> A1 </string>
+    <string name="A2ButtonText"> A2 </string>
+    <string name="A3ButtonText"> A3 </string>
+    <string name="B1ButtonText"> B1 </string>
+    <string name="B2ButtonText"> B2 </string>
+    <string name="B3ButtonText"> B3 </string>
+    <string name="C1ButtonText"> C1 </string>
+    <string name="C2ButtonText"> C2 </string>
+    <string name="C3ButtonText"> C3 </string>
+    <string name="textViewText"> Paired Devices </string>
+    <string name="menu_settings"> Settings </string>
+    <string name="title_activity_main_"> Main_Activity </string>
+
+</resources>

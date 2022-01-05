@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvPD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getPairedDevicesButton"
+        android:text="@string/textViewText"
+        android:textAlignment="center" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvPD"></ListView>
+
+    <Button
+        android:id="@+id/getPairedDevicesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scanButton"
+        android:text="@string/getPairedDevicesButtonText"
+        android:textAlignment="center"
+        android:onClick="getPairedDevicesBtn" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/scanButtonText"
+        android:textAlignment="center"
+        android:onClick="scanButtonBtn" />
+
+</RelativeLayout>

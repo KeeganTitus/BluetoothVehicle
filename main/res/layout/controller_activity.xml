@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/forwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/leftButton"
+        android:layout_toEndOf="@+id/leftButton"
+        android:layout_toRightOf="@+id/leftButton"
+        android:onClick="frdBtn"
+        android:text="FORWARD" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leftButton"
+        android:layout_toEndOf="@+id/leftButton"
+        android:layout_toRightOf="@+id/leftButton"
+        android:onClick="backBtn"
+        android:text="BACK" />
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="34dp"
+        android:layout_marginStart="34dp"
+        android:onClick="lftBtn"
+        android:text="LEFT"
+        android:layout_alignBaseline="@+id/rightBurron"
+        android:layout_alignBottom="@+id/rightBurron"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/rightBurron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:layout_toEndOf="@+id/backButton"
+        android:layout_toRightOf="@+id/backButton"
+        android:onClick="rgtBtn"
+        android:text="RIGHT" />
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/backButton"
+        android:layout_alignRight="@+id/backButton"
+        android:layout_centerVertical="true"
+        android:onClick="stpBtn"
+        android:text="STOP" />
+
+</RelativeLayout>
